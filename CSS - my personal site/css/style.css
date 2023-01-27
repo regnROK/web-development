@@ -1,0 +1,109 @@
+body {
+    background-color: #FFFFE8;
+    font-family:  helvetica, sans-serif ;
+    text-align: center;
+}
+h1 {
+    font-size: 90px;
+    font-family: 'Sacramento',cursive;
+    padding: 33px;
+    color: #66BFBF;
+}
+h2 {
+    color: #66BFBF;
+}
+h3 {
+    color: #66BFBF;
+    font-family: Cascadia Code;
+}
+.p1 {
+    font-size: 35px ;
+    font-family: Cascadia Code;
+
+}
+.p9 {
+    font-family: Cascadia Code;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.skills {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
+    
+}
+
+.i1 {
+    background-size: 10px;
+   margin-right: 100px;
+   position: relative;
+   left: 200px;
+}
+
+.i2 {
+    background-size: 10px;  
+    position: relative;
+    right:200px;
+    top: 100px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 3015;
+    -moz-border-radius: 3015;
+    border-radius: 3015px;
+    font-family: Courier New;
+    color: #050505;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc48d);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc48d);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc48d);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc48d);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc48d);
+    text-decoration: none;
+  }
+  .o1 {
+    margin: 40px auto;
+  }
+
+  .bottom-container {
+    margin-top: 30px;
+    padding: 20px 0 30px;
+    background-color: #30e3cb;
+    width: 100%; 
+  }
+
+  a {
+    color: #050505;
+    font-family: Cascadia Code;
+    margin: 20px 25px;
+    padding: 0 5px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: white;
+  } 
+
+  .o2 {
+    font-family: Cascadia Code;
+    font-size: 0.8rem;
+    color: white;
+    padding: 40px 0 0;
+  }

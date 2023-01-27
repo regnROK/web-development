@@ -1,0 +1,13 @@
+body {
+    background-color:#adeef7
+}
+hr {
+    border-color: black;
+    border-style: none;
+    border-top-style:dotted;
+    border-width: 3px;
+}
+
+#photo {
+    border-radius: 100%;
+}
