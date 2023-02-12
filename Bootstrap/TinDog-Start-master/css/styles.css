@@ -1,0 +1,261 @@
+#title {
+    background-color: #ff4c68;
+}
+
+.n1 {
+    font-family: Cascadia Code;
+    text-align: left;
+    color: white;
+    margin-left: 150px;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+body {
+    font-family: montserrat;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar-brand {
+    font-size: 2rem !important;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: 40px;
+}
+
+.nav-item {
+    padding: 0px 20px;
+}
+
+.iphone {
+    width: 46%;
+    transform: rotate(-20deg);
+    margin-left: -200px;
+    margin-bottom: 90px;
+    position: absolute;
+}
+
+@media (max-width: 810px) {
+    .iphone {
+        position:static;
+        transform: rotate(0deg);
+        margin: 50px auto 0;
+        
+    }
+
+    .n1 {
+        margin: 0 auto 0;
+        text-align: center;
+    }
+
+    .searchbar{
+        margin-left: 10px;
+        margin-bottom: auto;
+        margin-top: auto;
+        height: 30px;
+        background-color: #353b48;
+        border-radius: 30px;
+        padding: 10px;
+        }
+    
+        .search_input{
+        margin-left: 10px;
+        color: white;
+        border: 0;
+        outline: 0;
+        background: none;
+        width: 0;
+        caret-color:transparent;
+        line-height: 10px;
+        transition: width 0.4s linear;
+        }
+    
+        .searchbar:hover > .search_icon{
+        background: white;
+        color: #e74c3c;
+        }
+    
+        .search_icon{
+        height: 20px;
+        width: 20px;
+        float: right    ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color:white;
+        text-decoration:none;
+        }
+
+    .searchbar:hover > .search_input{ 
+        padding: 0 10px;
+        width: 50px;
+        caret-color:red;
+        transition: width 0.4s linear;
+        } 
+    
+}
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.nh3 {
+    font-weight: bold;
+}
+
+.np {
+    color: #8f8f8f;
+}
+.row {
+    text-align: center;
+    padding: 10% 0;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.nh2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 2 rem;
+}
+
+.timg {
+    border-radius: 100%;
+    width: 20%;
+}
+
+#press {
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.pl {
+    width: 15%;
+    margin: 20px 20px 30px;
+}
+
+#testimonials {
+    background-color: #ff4c68;
+    padding: 7% 0;
+    text-align: center;
+}
+
+.coroceal-item {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.searchbar{
+    margin-left: 30px;
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    margin-left: 10px;
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{ 
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+
+    #pricing {
+        text-align: center;
+        padding: 100px;
+       
+    }
+    .pp {
+        text-align: center;
+        margin-bottom: 50px;
+        color: #8f8f8f;
+    }
+
+    .pp2 {
+        color: #8f8f8f;
+    }
+
+   .nav-link:hover {
+    color: #ff4c68;
+   }
+    
+   #cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15% 13%;
+   }
+
+   .ch3 {
+    font-family: 'Montserrat-Black';
+    font-size: 2.5rem;
+    line-height: 1.5;
+   }
+
+   .Downloadbutton1 {
+    margin-right: 15px;
+   }
+   
+   .Downloadbutton2 {
+    margin-left: 15px;
+   }
+
+   #footer {
+    text-align: center;
+    padding: 5% 15% 2%;
+   }
+
+   .footbut {
+    margin: 10px;
+   }
+
